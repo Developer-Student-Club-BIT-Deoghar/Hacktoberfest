@@ -2,7 +2,6 @@ import React from 'react'
 import "../pages/Team.css";
 import { Link } from "react-router-dom";
 import { AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
-
 function TeamMember({name, img}) {
     return (
             <div className="flex">
@@ -28,5 +27,4 @@ function TeamMember({name, img}) {
       </div>
     )
 }
-
 export default TeamMember
